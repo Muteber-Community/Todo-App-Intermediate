@@ -1,0 +1,42 @@
+.todo {
+  margin: 0 20% 10px 20%;
+  min-height: 4rem;
+  background-color: #292929;
+  color: white;
+  border-radius: 2rem;
+  max-width: 100%;
+  display: flex;
+}
+
+.closeButton {
+  background-color: #c14040;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .closeButton {
+    float: right;
+  }
+}
+
+.closeButton:hover {
+  background-color: #d84b4b;
+}
+
+.editButton {
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  padding: 10px;
+}
+
+.categoryCard {
+  border-radius: 3rem;
+  margin: 10px;
+  background-color: #292929;
+  color: white;
+  display: flex;
+}

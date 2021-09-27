@@ -1,0 +1,54 @@
+.form {
+  width: 100%;
+  border-radius: 3rem;
+  padding: 1rem;
+  margin-bottom: 10px;
+  background: #cadbf4;
+  display: flex;
+  border: hidden;
+  max-height: 60%;
+}
+
+.form:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(56, 169, 240, 0.75);
+}
+
+.tag {
+  background-color: #2c3749;
+  color: white;
+  margin: 5px;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 12px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.modal {
+  background: linear-gradient(to right, #294751, #1f6146);
+}
+
+.addButton {
+  border-radius: 25px;
+  height: 60%;
+  width: 100%;
+  border: 0;
+  background-color: #447ec0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryCard {
+  border-radius: 3rem;
+  margin: 6px ;
+  background-color: #292929;
+  color: white;
+  display: flex;
+}
+
+.editCategoryCard {
+  margin-top: 10px;
+}

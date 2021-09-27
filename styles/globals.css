@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.form.radius {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.form {
+  border-radius: 25px;
+  border: 0;
+  background-color: #cadbf4;
+  padding: 20px;
+  margin: 0.2em;
+  max-height: 10px;
+  -webkit-box-flex: 0;
+}
+
+.chooseCategory {
+  width: 100%;
+  min-height: 1px;
+  border-radius: 25px;
+  border: 0;
+  background-color: #cadbf4;
+  padding: 8px;
+  margin: 0.2rem;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+.todoButtons {
+  border-radius: 25px;
+  min-height: 1px;
+  width: 100%;
+  border: 0;
+  background-color: #2e4834;
+  color: white;
+  padding: 9px;
+  margin: 0.2em;
+  -webkit-box-flex: 0;
+  display: flexbox;
+}
+
+.categoriesButton {
+  height: 95% !important;
+  margin-left: 0 !important;
+}
+
+.todoButtons:hover {
+  background-color: rgb(70, 90, 76);
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+.modal-content {
+  border: 0 none
+}
+
+.validate::placeholder {
+  color: rgb(235, 76, 76)
+}
+
+
